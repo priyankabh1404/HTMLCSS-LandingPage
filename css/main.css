@@ -39,3 +39,46 @@ section { display: flex; }
 .text-light { font-size: 30px; color: #a0a0a0; }
 .text-secondary { font-size: 30px; color: #faa541; }
 .text-primary { font-size: 16px; color: #364147; }
+
+.header-nav{
+    border-bottom: 1px solid #a0a0a0;
+}
+.brand{
+    size: 170 85;
+    margin-left: -15px;
+    margin-right: 60px;
+}
+.logo{
+    max-width: 100%; height: auto;
+}
+.search-box{
+    size: 330 30;
+    padding: 6px 12px;
+    border: 1px solid #a0a0a0;
+}
+.search-button{
+    background-color: #a0a0a0;
+    color: #ffffff;
+    size: 100px 30px;
+    border: 0;
+    padding: 0;
+}
+.nav-list{
+    font-size: 16px uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.profile{
+margin-left: auto;
+}
+.account{
+    text-align: right;
+    padding: 15px;
+    color: #364147;
+    font-size: 18px;   
+}
+.profile-pic{
+    size: 60 60;
+    border-radius: 100px;
+    max-width: 100%;
+}
